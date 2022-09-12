@@ -27,7 +27,6 @@ function displayResult(apiData) {
         cards = cards + cardBlock;
     });
 
-
     images.innerHTML = cards;
     localStorage.setItem("cards", images.innerHTML);
 }
